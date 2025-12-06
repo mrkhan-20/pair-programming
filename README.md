@@ -147,17 +147,14 @@ The UI will be available at `http://localhost:3000`
 2. **Database Optimization**:
    - Connection pooling configuration
    - Indexing on frequently queried fields
-   - Migration system (Alembic) for schema changes
 
 3. **Real AI Autocomplete**: Replace the mock autocomplete with:
    - Integration with OpenAI/Anthropic APIs
-   - Language server protocol (LSP) support
    - Context-aware suggestions based on project structure
 
 4. **Scalability**:
    - Redis for WebSocket connection management across multiple servers
    - Message queue (RabbitMQ/Kafka) for handling high-frequency updates
-   - Horizontal scaling support
 
 5. **Error Handling & Resilience**:
    - Retry logic for WebSocket reconnections
@@ -166,7 +163,6 @@ The UI will be available at `http://localhost:3000`
 
 6. **Testing**:
    - Unit tests for business logic
-   - Integration tests for API endpoints
    - WebSocket connection testing
    - End-to-end tests
 
@@ -177,7 +173,6 @@ The UI will be available at `http://localhost:3000`
    - Syntax highlighting
    - Code folding
    - Multi-cursor support
-   - Find/replace functionality
 
 2. **User Experience**:
    - Loading states and spinners
@@ -190,12 +185,10 @@ The UI will be available at `http://localhost:3000`
    - Code splitting and lazy loading
    - Virtual scrolling for large files
    - Optimistic UI updates
-   - Service worker for offline support
 
 4. **Testing**:
    - Unit tests for components
    - Integration tests for Redux slices
-   - E2E tests with Cypress/Playwright
    - WebSocket mocking for tests
 
 ## Limitations
